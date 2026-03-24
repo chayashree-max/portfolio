@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaya Shree Reddy C Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>Chaya Shree Reddy C</h1>
+  <ul id="menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header>
+  <h1>Hello, I'm Chaya Shree Reddy C 👋</h1>
+  <p>Aspiring AI & ML Engineer</p>
+  <button onclick="scrollToSection('contact')">Hire Me</button>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <img src="PHOTOO.JPG.jpg" class="profile-pic">
+  <div>
+    <h2>About Me</h2>
+    <p>I am a BSc AIML student passionate about building intelligent systems and modern web apps,my journey in technology began in high school,i've been expanding my knowledge and skills in this field.</p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <span>Python</span>
+    <span>Machine Learning</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">Project 1</div>
+    <div class="card">Project 2</div>
+    <div class="card">Project 3</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form onsubmit="return sendMessage()">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="msg" placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Chaya Shree Reddy C | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
