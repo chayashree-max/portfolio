@@ -10,17 +10,21 @@ font-family:Poppins,sans-serif;
 body{
 background: linear-gradient(135deg, #ffe4ec, #ffd6e8, #ffc2dd);
 color:#4a2c3a;
+padding-top:90px; /* 🔥 prevents content hiding under navbar */
 }
 
 /* NAVBAR */
 nav{
 position:fixed;
+top:0;              /* 🔥 FIX: lock to top */
+left:0;             /* 🔥 good practice */
 width:100%;
 display:flex;
 justify-content:space-between;
 padding:20px 5%;
 background:rgba(255,255,255,0.7);
 backdrop-filter: blur(10px);
+z-index:1000;       /* 🔥 keeps it above everything */
 }
 
 nav ul{
@@ -37,15 +41,15 @@ font-weight:500;
 
 /* HERO */
 header{
-margin-top:70px;
 text-align:center;
 padding:120px;
 }
 
+/* BUTTON */
 button{
 padding:10px 20px;
-background:#ff69b4;
-color:white;
+background:#76ff69;
+color:rgb(255, 255, 255);
 border:none;
 cursor:pointer;
 border-radius:20px;
