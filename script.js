@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
       // POST to backend
-      const res = await fetch("https://portfolio-ebyq.onrender.com/contact", {
+      const res = await fetch("https://portfolio-cnmo.onrender.com/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
