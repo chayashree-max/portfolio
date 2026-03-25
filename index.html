@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h2>CHAYA SHREE REDDY C </h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <h1>Aspiring AI Engineer</h1>
+
+    <p>BSc Artificial Intelligence & Machine Learning</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <img src="PHOTOO.JPG.jpg" width="200">
+    <h2>About Me</h2>
+    <p>
+
+      Hi, Im CHAYA SHREE REDDY C — an aspiring Machine Learning Engineer driven by curiosity and innovation. 
+      Currently pursuing a BSc in Artificial Intelligence and Machine Learning, 
+      I like solving problems using code, data, and logic. I believe in learning by building,
+       and I am constantly working on improving my skills to create useful and impactful solutions.
+
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills & Technologies</h2>
+    <ul>
+      <li>C Programming</li>
+      <li>HTML AND CSS</li>
+      <li>Data Structures</li>
+      <li>R Language</li>
+      <li>AIML BASICS</li>
+      <li>RDBMS</li>
+      <li>MongoDB</li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+<section id="resume">
+  <h2>Resume</h2>
+  <p>Download my resume to learn more about my education, skills, and experience.</p>
+  <a href="resume.pdf" download class="resume-btn">
+    <i class="fas fa-download"></i> Download Resume
+  </a>
+</section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Get In Touch</h2>
+
+    <p>India</p>
+    <p>Phone: +91 7204564696</p>
+    <p>Email: 25aimb17@kristujayanti.com</p>
+
+    <!-- UPDATED FORM -->
+    <form id="contactForm">
+
+      <input type="text" id="name" placeholder="Your Name" required><br>
+
+      <input type="email" id="email" placeholder="Your Email" required><br>
+
+      <textarea id="message" placeholder="Your Message" required></textarea><br>
+
+      <button id="submitBtn">
+        <i class="fas fa-paper-plane"></i>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+    <!-- STATUS MESSAGE -->
+    <div id="status"></div>
+
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
